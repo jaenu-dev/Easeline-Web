@@ -1,0 +1,5 @@
+/* Kosongkan atau hapus @tailwind directives */
+body {
+  margin: 0;
+  padding: 0;
+}
