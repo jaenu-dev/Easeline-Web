@@ -102,33 +102,32 @@ export default function EaselineWebsite() {
             font-family: 'CustomFont', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
           }
 
-/* ANIMASI 1: Slide In From Right (Untuk Gambar) */
-@keyframes slideInFromRight {
-  0% { transform: translateX(100%); opacity: 0; }
-  100% { transform: translateX(0); opacity: 1; }
-}
-.animate-slideInFromRight {
-  animation: slideInFromRight 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
+          /* ANIMASI 1: Slide In From Right (Untuk Gambar) */
+          @keyframes slideInFromRight {
+            0% { transform: translateX(100%); opacity: 0; }
+            100% { transform: translateX(0); opacity: 1; }
+          }
+          .animate-slideInFromRight {
+            animation: slideInFromRight 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+          }
 
-/* ANIMASI 2: Slide In From Left (Untuk Judul "Welcome") */
-@keyframes slideInFromLeft {
-  0% { transform: translateX(-100%); opacity: 0; }
-  100% { transform: translateX(0); opacity: 1; }
-}
-.animate-slideInFromLeft {
-  animation: slideInFromLeft 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-/* ANIMASI 3: Slide In From Bottom (Untuk Tagline & Deskripsi) */
-@keyframes slideInFromBottom {
-  0% { transform: translateY(50px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1; }
-}
-.animate-slideInFromBottom {
-  animation: slideInFromBottom 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  opacity: 0; /* Mulai sembunyi dulu supaya delay bekerja */
-}
+          /* ANIMASI 2: Slide In From Left (Untuk Judul "Welcome") */
+          @keyframes slideInFromLeft {
+            0% { transform: translateX(-100%); opacity: 0; }
+            100% { transform: translateX(0); opacity: 1; }
+          }
+          .animate-slideInFromLeft {
+            animation: slideInFromLeft 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+          }
+          /* ANIMASI 3: Slide In From Bottom (Untuk Tagline & Deskripsi) */
+          @keyframes slideInFromBottom {
+            0% { transform: translateY(50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+          }
+          .animate-slideInFromBottom {
+            animation: slideInFromBottom 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+            opacity: 0; /* Mulai sembunyi dulu supaya delay bekerja */
+          }
         `}</style>
       )}
 
