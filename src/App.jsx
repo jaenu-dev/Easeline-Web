@@ -98,6 +98,7 @@ export default function EaselineWebsite() {
             font-style: normal;
             font-display: swap;
           }
+            
           body {
             font-family: 'CustomFont', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
           }
